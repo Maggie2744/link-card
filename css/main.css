@@ -2,8 +2,21 @@ html {
   box-sizing: border-box;
   font-family: Georgia, sans-serif;
   line-height: 1.5;
+  background-color: #f0eee8;
+  color: #512200;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  display: inline-block;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
 }
