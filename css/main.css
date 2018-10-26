@@ -15,8 +15,33 @@ body {
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 8px;
+  max-width: 100%;
 }
 
 h1 {
   font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+  padding: .4em .75em .5em;
+  margin: 0 0 1rem;
+}
+
+main {
+  padding: .4em .75em .5em;
+  margin: 0 0 1rem;
+}
+
+dl {}
+
+footer {
+  padding: .4em .75em .5em;
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+a {
+  color: #f0eee8;
+  text-decoration: none;
+  background-color: #785439;
+  padding: .4em .75em .5em;
+  border-radius: 3px;
 }
