@@ -26,11 +26,35 @@ h1 {
 }
 
 main {
-  padding: .4em .75em .5em;
   margin: 0 0 1rem;
 }
 
-dl {}
+p {
+  padding: .4em .75em .5em;
+  padding-left: 1em;
+}
+
+.link-card {
+
+}
+
+div {
+  border-top: 3px solid #9a816d;
+  border-bottom: 3px solid #9a816d;
+}
+
+.definition {
+  display: inline-block;
+  padding: .4em .75em .5em;
+  padding-right: 4em;
+  padding-left: 1em;
+}
+
+.answer {
+  display: inline-block;
+  font-style: italic;
+  padding: .4em .75em .5em;
+}
 
 footer {
   padding: .4em .75em .5em;
@@ -44,4 +68,12 @@ a {
   background-color: #785439;
   padding: .4em .75em .5em;
   border-radius: 3px;
+}
+
+body:hover {
+  background-color: #cabdb2;
+}
+
+a:hover {
+  background-color: #512200;
 }
