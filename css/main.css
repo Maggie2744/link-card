@@ -10,7 +10,12 @@ html {
   box-sizing: inherit;
 }
 
-.link-card {}
+.link-card {
+  display: block;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  background-color: #dcd4cd;
+}
 
 h2 {
   font-family: 'Dosis', sans-serif;
@@ -22,4 +27,9 @@ p {}
 
 .btn {
   font-family: 'Dosis', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #512200;
 }
