@@ -9,3 +9,17 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.link-card {}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+}
+
+p {}
+
+.dl {}
+
+.btn {
+  font-family: 'Dosis', sans-serif;
+}
