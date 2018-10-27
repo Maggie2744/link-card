@@ -3,6 +3,7 @@ html {
   font-family: Georgia, sans-serif;
   line-height: 1.5;
   background-color: #f0eee8;
+  font-size: 1rem;
   color: #512200;
 }
 
@@ -19,14 +20,20 @@ html {
 
 h2 {
   font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
 }
 
 p {}
 
-.dl {}
+.dl {
+  font-size: .875rem;
+}
 
 .btn {
   font-family: 'Dosis', sans-serif;
+  font-size: 1.125rem;
+  background-color: #785439;
+  color: #f0eee8;
 }
 
 a {
