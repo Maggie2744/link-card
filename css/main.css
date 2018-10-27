@@ -34,10 +34,6 @@ p {
   padding-left: 1em;
 }
 
-.link-card {
-
-}
-
 div {
   border-top: 3px solid #9a816d;
   border-bottom: 3px solid #9a816d;
@@ -70,10 +66,6 @@ a {
   border-radius: 3px;
 }
 
-body:hover {
+.link-card:hover {
   background-color: #cabdb2;
-}
-
-a:hover {
-  background-color: #512200;
 }
