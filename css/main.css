@@ -46,8 +46,13 @@ dl {
   column-count: 2;
 }
 
-dd {
+dl dt {
+  text-align: left;
+}
+
+dl dd {
   font-style: italic;
+  margin: auto;
 }
 
 .button {
