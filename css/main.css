@@ -32,6 +32,7 @@ h2 {
 p {
   padding: .4em .75em .5em;
   margin: inherit;
+  margin-top: 0;
 }
 
 .list {
@@ -79,6 +80,7 @@ a {
   text-decoration: none;
   color: #512200;
 }
+
 .link-card:hover {
   background-color: #cabdb2;
 }
