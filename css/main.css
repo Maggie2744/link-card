@@ -41,13 +41,19 @@ dd {
   font-style: italic;
 }
 
+.button {
+  text-align: center;
+}
+
 .btn {
+  display: inline-block;
   font-family: 'Dosis', sans-serif;
   font-size: 1.125rem;
   background-color: #785439;
   color: #f0eee8;
   padding: .4em .75em .5em;
   margin: 0 0 1rem;
+  border-radius: 8px;
 }
 
 a {
