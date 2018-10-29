@@ -23,7 +23,7 @@ body {
 }
 
 h2 {
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   padding: .4em .75em .5em;
   margin: 0;
@@ -56,7 +56,7 @@ dd {
 
 .btn {
   display: inline-block;
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   background-color: #785439;
   color: #f0eee8;
@@ -69,6 +69,7 @@ a {
   text-decoration: none;
   color: #512200;
 }
+
 .link-card:hover {
   background-color: #cabdb2;
 }
