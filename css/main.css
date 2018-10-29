@@ -21,12 +21,24 @@ html {
 h2 {
   font-family: 'Dosis', sans-serif;
   font-size: 1.5rem;
+  padding: .4em .75em .5em;
+  margin: 0 0 1rem;
 }
 
 p {}
 
 .dl {
   font-size: .875rem;
+}
+
+
+.dt{
+  display: inline-block;
+}
+
+.dd {
+  display: inline-block;
+  text-align: center;
 }
 
 .btn {
