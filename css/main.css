@@ -18,23 +18,28 @@ html {
   background-color: #dcd4cd;
 }
 
+body {
+  display: inline-block;
+}
+
 h2 {
   font-family: 'Dosis', sans-serif;
   font-size: 1.5rem;
   padding: .4em .75em .5em;
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
 p {
   padding: .4em .75em .5em;
-  margin: 0 0 1rem;
+  margin: inherit;
 }
 
 dl {
   font-size: .875rem;
-  padding: .4em .75em .5em;
+  padding: 1rem;
   margin: 0 0 1rem;
   column-count: 2;
+  list-style-type: none;
 }
 
 dd {
