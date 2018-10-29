@@ -25,20 +25,20 @@ h2 {
   margin: 0 0 1rem;
 }
 
-p {}
+p {
+  padding: .4em .75em .5em;
+  margin: 0 0 1rem;
+}
 
-.dl {
+dl {
   font-size: .875rem;
+  padding: .4em .75em .5em;
+  margin: 0 0 1rem;
+  column-count: 2;
 }
 
-
-.dt{
-  display: inline-block;
-}
-
-.dd {
-  display: inline-block;
-  text-align: center;
+dd {
+  font-style: italic;
 }
 
 .btn {
@@ -46,6 +46,8 @@ p {}
   font-size: 1.125rem;
   background-color: #785439;
   color: #f0eee8;
+  padding: .4em .75em .5em;
+  margin: 0 0 1rem;
 }
 
 a {
