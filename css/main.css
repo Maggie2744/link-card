@@ -34,14 +34,16 @@ p {
   margin: inherit;
 }
 
-dl {
-  font-size: .875rem;
-  padding: 1rem;
-  margin: 0 0 1rem;
-  column-count: 2;
+.list {
+  margin: 1rem;
   border-bottom: 2px solid #9a816d;
   border-top: 2px solid #9a816d;
-  border-radius: 3px;
+  text-align: left;
+}
+
+dl {
+  font-size: .875rem;
+  column-count: 2;
 }
 
 dd {
