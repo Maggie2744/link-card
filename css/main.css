@@ -44,15 +44,20 @@ p {
 dl {
   font-size: .875rem;
   column-count: 2;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 dl dt {
   text-align: left;
+  width: 33%;
 }
 
 dl dd {
   font-style: italic;
-  margin: auto;
+  margin-left: auto;
+  width: 66%;
+  text-align: left;
 }
 
 .button {
