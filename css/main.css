@@ -39,7 +39,9 @@ dl {
   padding: 1rem;
   margin: 0 0 1rem;
   column-count: 2;
-  list-style-type: none;
+  border-bottom: 2px solid #9a816d;
+  border-top: 2px solid #9a816d;
+  border-radius: 3px;
 }
 
 dd {
