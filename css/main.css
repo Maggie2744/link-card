@@ -89,3 +89,7 @@ a {
 .link-card:hover .btn {
   background-color: #512200;
 }
+
+.link-card: h2 {}
+
+.link-card {}
