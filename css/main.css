@@ -90,6 +90,10 @@ a {
   background-color: #512200;
 }
 
-.link-card: h2 {}
+.link-card: h2 {
+  width: auto;
+}
 
-.link-card {}
+.link-card {
+  width: auto;
+}
