@@ -37,26 +37,30 @@ p {
 }
 
 .list {
-  width: 425px;
+  width: 100%;
+  padding: 1rem;
 }
 
 dl {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   font-size: .875rem;
-  padding: .4em 1.1em .5em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin: 0 0 1rem;
   border-top: 3px solid #9a816d;
   border-bottom: 3px solid #9a816d;
+  margin-top: -.5em;
 }
 
 dt {
-  width: 33%;
+  width: 50%;
 }
 
 dd {
   margin-left: auto;
-  width: 66%;
+  width: 50%;
   font-style: italic;
 }
 
@@ -74,4 +78,5 @@ dd {
   background-color: #785439;
   color: #f0eee8;
   margin: 0 0 1rem;
+  margin-top: -1rem;
 }
