@@ -11,89 +11,25 @@ html {
   box-sizing: inherit;
 }
 
-.body {
-  display: inline-block;
+section {
+  background-color: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 8px;
-  background-color: #dcd4cd;
-}
-
-body {
-  display: inline-block;
 }
 
 h2 {
-  font-family: Dosis, sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.5rem;
-  padding: .4em .5em;
-  margin: 0;
 }
 
 p {
-  padding: .4em .75em .5em;
-  margin: auto;
-  margin-top: 0;
-  max-width: 100%;
-}
-
-.list {
-  margin: .75em;
-  border-bottom: 2px solid #9a816d;
-  border-top: 2px solid #9a816d;
-  text-align: left;
+  font-size: 1rem;
 }
 
 dl {
   font-size: .875rem;
-  column-count: 2;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-dl dt {
-  text-align: left;
-  width: 33%;
-}
-
-dl dd {
-  font-style: italic;
-  margin-left: auto;
-  width: 66%;
-  text-align: left;
 }
 
 .button {
-  text-align: center;
-}
-
-.btn {
-  display: inline-block;
-  font-family: Dosis, sans-serif;
   font-size: 1.125rem;
-  background-color: #785439;
-  color: #f0eee8;
-  padding: .4em .75em .5em;
-  margin: 0 0 1rem;
-  border-radius: 8px;
-}
-
-a {
-  text-decoration: none;
-  color: #512200;
-}
-
-.link-card:hover {
-  background-color: #cabdb2;
-}
-
-.link-card:hover .btn {
-  background-color: #512200;
-}
-
-.link-card h2 {
-  width: auto;
-}
-
-.link-card {
-  width: auto;
 }
