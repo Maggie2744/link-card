@@ -37,4 +37,8 @@ dl {
 
 .button {
   font-size: 1.125rem;
+  font-family: 'Dosis', sans-serif;
+  border: 3px solid #785439;
+  background-color: #785439;
+  color: #f0eee8;
 }
