@@ -25,20 +25,52 @@ section {
 h2 {
   font-family: 'Dosis', sans-serif;
   font-size: 1.5rem;
+  padding: .4em .75em .5em;
+  margin: 0;
 }
 
 p {
   font-size: 1rem;
+  padding: .4em 1em .5em;
+  margin: 0;
+}
+
+.list {
+  width: 400px;
 }
 
 dl {
+  display: flex;
+  flex-wrap: wrap;
   font-size: .875rem;
+  padding: .4em 1em .5em;
+  margin: 0 0 1rem;
+  border-top: 3px solid #9a816d;
+  border-bottom: 3px solid #9a816d;
+}
+
+dt {
+  width: 33%;
+}
+
+dd {
+  margin-left: auto;
+  width: 66%;
+  font-style: italic;
 }
 
 .button {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
   font-size: 1.125rem;
   font-family: 'Dosis', sans-serif;
+  text-align: center;
   border: 3px solid #785439;
+  border-radius: 8px;
   background-color: #785439;
   color: #f0eee8;
+  margin: 0 0 1rem;
 }
