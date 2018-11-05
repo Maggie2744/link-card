@@ -49,8 +49,8 @@ dl {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin: 0 0 1rem;
-  border-top: 3px solid #9a816d;
-  border-bottom: 3px solid #9a816d;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
   margin-top: -.5em;
 }
 
@@ -73,7 +73,7 @@ dd {
   font-size: 1.125rem;
   font-family: Dosis, sans-serif;
   text-align: center;
-  border: 3px solid #785439;
+  border: 2px solid #785439;
   border-radius: 8px;
   background-color: #785439;
   color: #f0eee8;
