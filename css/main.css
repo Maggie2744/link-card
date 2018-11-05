@@ -80,3 +80,12 @@ dd {
   margin: 0 0 1rem;
   margin-top: -1rem;
 }
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+  border-color: #512200;
+}
