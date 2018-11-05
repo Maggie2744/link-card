@@ -90,6 +90,10 @@ dd {
   border-color: #512200;
 }
 
-.link-card {}
+.link-card {
+  margin: auto;
+}
 
-.link-card h2 {}
+.link-card h2 {
+  margin: auto;
+}
